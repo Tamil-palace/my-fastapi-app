@@ -20,4 +20,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git clone https://huggingface.co/spaces/Tamilvanan93/my-fastapi-app main
+          git push https://Tamilvanan93:$HF_TOKEN@huggingface.co/spaces/Tamilvanan93/my-fastapi-app main
